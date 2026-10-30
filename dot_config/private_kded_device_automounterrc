@@ -10,11 +10,27 @@ Icon=drive-harddisk-root
 LastNameSeen=232.8 GiB 내장 드라이브(nvme0n1p2)
 LastSeenMounted=true
 
+[Devices][/org/freedesktop/UDisks2/block_devices/sda]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=Samsung T5 SSD
+LastSeenMounted=true
+
 [Devices][/org/freedesktop/UDisks2/block_devices/sda1]
 Icon=drive-removable-media-usb
 LastNameSeen=ARCH_202610
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+Icon=drive-removable-media-usb
+LastNameSeen=ARCHISO_EFI
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=ARCH_202610
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb2]
 Icon=drive-removable-media-usb
 LastNameSeen=ARCHISO_EFI
 
