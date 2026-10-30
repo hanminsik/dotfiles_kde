@@ -1,0 +1,24 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=1.0 GiB 내장 드라이브(nvme0n1p1)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p2]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=232.8 GiB 내장 드라이브(nvme0n1p2)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+Icon=drive-removable-media-usb
+LastNameSeen=ARCH_202610
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+Icon=drive-removable-media-usb
+LastNameSeen=ARCHISO_EFI
+
+[General]
+AutomountEnabled=true
+AutomountOnLogin=true
+AutomountOnPlugin=true

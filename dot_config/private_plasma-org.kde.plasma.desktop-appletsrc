@@ -4,20 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=3800f99c-3b60-41dd-a1e1-6a3c583af900
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.color
-
-[Containments][1][Wallpaper][org.kde.color][General]
-Color=0,0,0
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -143,6 +129,20 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.mediacontrolle
 
 [Containments][2][General]
 AppletOrder=4;29;3;5;30;6;8;24
+
+[Containments][31]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=23da1986-5fdb-4b57-9217-33c7b62b0c44
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.color
+
+[Containments][31][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [ScreenMapping]
 itemsOnDisabledScreens=
