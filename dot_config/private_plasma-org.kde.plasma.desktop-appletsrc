@@ -46,6 +46,10 @@ showSeconds=Never
 DialogHeight=630
 DialogWidth=810
 
+[Containments][2][Applets][29]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -60,6 +64,10 @@ DialogWidth=810
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+
+[Containments][2][Applets][30]
+immutability=1
+plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][4]
 immutability=1
@@ -134,7 +142,7 @@ extraItems=org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.notif
 knownItems=org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.dwellclicker,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.kupapplet,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;8;24
+AppletOrder=4;29;3;5;30;6;8;24
 
 [ScreenMapping]
 itemsOnDisabledScreens=
