@@ -1,0 +1,73 @@
+[Hotkey]
+# 전환 키의 보조 키를 누르고 있을 때 입력기 순환
+EnumerateWithTriggerKeys=False
+# 입력기 활성화
+ActivateKeys=
+# 입력기 비활성화
+DeactivateKeys=
+# Consume redundant Activate/Deactivate key
+# ConsumeRedundantActivateKeys=False
+# 임시 입력기 전환
+AltTriggerKeys=
+# 입력기 전환
+# EnumerateForwardKeys=
+# 입력기 역순으로 전환
+# EnumerateBackwardKeys=
+# 열거하는 동안 첫 번째 입력기 건너뛰기
+# EnumerateSkipFirst=False
+# 입력기 그룹 전환
+EnumerateGroupForwardKeys=
+# 입력기 그룹 역순으로 전환
+EnumerateGroupBackwardKeys=
+# 대체 이전 페이지
+PrevPage=
+# 대체 다음 페이지
+NextPage=
+# 대체 이전 후보
+PrevCandidate=
+# 대체 다음 후보
+NextCandidate=
+# 내장된 사전편집 전환
+TogglePreedit=
+# 보조 키 단축키 트리거 시간 제한(밀리초)
+# ModifierOnlyKeyTimeout=250
+
+[Hotkey/TriggerKeys]
+0=Hangul
+
+[Behavior]
+# Activate input method by default
+# ActiveByDefault=False
+# 포커스를 얻을 때 상태 초기화
+# resetStateWhenFocusIn=No
+# 입력 상태 공유
+# ShareInputState=No
+# 응용프로그램에서 사전편집 표시
+# PreeditEnabledByDefault=True
+# 입력기 변경시 입력기 정보 표시
+# ShowInputMethodInformation=True
+# 포커스를 변경할 때 입력기 정보 표시
+showInputMethodInformationWhenFocusIn=True
+# 간결한 입력기 정보 표시
+# CompactInputMethodInformation=True
+# 첫 번째 입력기 정보 표시
+# ShowFirstInputMethodInformation=True
+# Default Candidates per page
+# DefaultPageSize=5
+# XKB 옵션 재정의
+# OverrideXkbOption=False
+# 사용자 지정 XKB 옵션
+# CustomXkbOption=
+# Force Enabled Addons
+# EnabledAddons=
+# Force Disabled Addons
+# DisabledAddons=
+# Preload input method to be used by default
+# PreloadInputMethod=True
+# 비밀번호 입력란에서 입력기 허용
+# AllowInputMethodForPassword=False
+# 비밀번호 입력 시 사전편집 텍스트 표시
+# ShowPreeditForPassword=False
+# 사용자 데이터 저장 간격(분)
+# AutoSavePeriod=30
+

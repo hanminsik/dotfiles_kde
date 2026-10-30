@@ -1,0 +1,10 @@
+[General]
+historyBehavior=Disabled
+
+[Plugins]
+krunner_katesessionsEnabled=false
+krunner_konsoleprofilesEnabled=false
+krunner_spellcheckEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings

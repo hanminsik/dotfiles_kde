@@ -1,0 +1,22 @@
+[General]
+AlwaysShowTabBar=true
+DynamicView=true
+HomeUrl=/home/minsik/Downloads/
+OpenExternallyCalledFolderInNewTab=true
+RememberOpenedTabs=false
+ShowFullPathInTitlebar=true
+Version=202
+ViewPropsTimestamp=2026,10,29,22,24,14.796
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,glycin-heif,djvuthumbnail,exrthumbnail,glycin-jxl,jpegthumbnail,kraorathumbnail,windowsimagethumbnail,windowsexethumbnail,svgthumbnail,glycin-svg,imagethumbnail,fontthumbnail,ffmpegthumbs,comicbookthumbnail,glycin-image-rs,audiothumbnail,opendocumentthumbnail,ebookthumbnail,cursorthumbnail,directorythumbnail
+
+[Search]
+Location=Everywhere
