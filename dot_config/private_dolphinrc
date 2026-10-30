@@ -1,7 +1,6 @@
 [General]
 AlwaysShowTabBar=true
 DynamicView=true
-HomeUrl=/home/minsik/Downloads/
 OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
 ShowFullPathInTitlebar=true

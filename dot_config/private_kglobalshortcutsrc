@@ -304,8 +304,14 @@ toggle do not disturb=none,none,방해 금지 모드 전환
 [services][net.local.alacritty-toggle.sh.desktop]
 _launch=F3
 
+[services][net.local.dolphin-2.desktop]
+_launch=Alt+Shift+T
+
 [services][net.local.dolphin-toggle.sh.desktop]
 _launch=F1
+
+[services][net.local.dolphin.desktop]
+_launch=Alt+Shift+D
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none
