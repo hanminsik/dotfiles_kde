@@ -41,13 +41,13 @@ TogglePreedit=
 # 포커스를 얻을 때 상태 초기화
 # resetStateWhenFocusIn=No
 # 입력 상태 공유
-# ShareInputState=No
+ShareInputState=Program
 # 응용프로그램에서 사전편집 표시
 # PreeditEnabledByDefault=True
 # 입력기 변경시 입력기 정보 표시
 # ShowInputMethodInformation=True
 # 포커스를 변경할 때 입력기 정보 표시
-showInputMethodInformationWhenFocusIn=True
+# showInputMethodInformationWhenFocusIn=False
 # 간결한 입력기 정보 표시
 # CompactInputMethodInformation=True
 # 첫 번째 입력기 정보 표시

@@ -77,7 +77,7 @@ DialogWidth=810
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,applications:Alacritty.desktop,preferred://browser,applications:obsidian.desktop,applications:FFPWA-01M65PBZXTZQYE492BVJJVCX0X.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,applications:Alacritty.desktop,preferred://browser,applications:obsidian.desktop,applications:FFPWA-01M664AGYV4SJSJFVJA2ERHGCD.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false

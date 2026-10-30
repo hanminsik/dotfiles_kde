@@ -28,7 +28,6 @@ LastNameSeen=ARCHISO_EFI
 EverMounted=true
 Icon=drive-removable-media-usb
 LastNameSeen=ARCH_202610
-LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sdb2]
 Icon=drive-removable-media-usb
