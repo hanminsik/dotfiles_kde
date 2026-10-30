@@ -61,3 +61,4 @@ application/x-xz-compressed-tar=peazip.desktop;
 application/x-zstd-compressed-tar=peazip.desktop;
 application/zip=peazip.desktop;
 application/zstd=peazip.desktop;
+x-scheme-handler/jetbrains=jetbrainsd.desktop
