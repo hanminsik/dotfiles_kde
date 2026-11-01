@@ -317,17 +317,11 @@ _launch=Alt+Shift+D
 [services][net.local.konsole-toggle.sh.desktop]
 _launch=F3
 
-[services][net.local.rofi-google-private.sh.desktop]
-_launch=Shift+Tools
-
-[services][net.local.rofi-google.sh.desktop]
-_launch=Tools
-
-[services][net.local.rofi-toggle.sh.desktop]
-_launch=Meta+A
+[services][net.local.qalculate-toggle.sh.desktop]
+_launch=F4
 
 [services][org.kde.krunner.desktop]
-_launch=none
+_launch=F6
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none
