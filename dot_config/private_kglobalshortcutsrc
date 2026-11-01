@@ -315,9 +315,12 @@ _launch=F1
 _launch=Alt+Shift+D
 
 [services][org.kde.krunner.desktop]
-_launch=CapsLock\tSearch\tAlt+Space\tAlt+F2
+_launch=none
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none
 EnableTouchpad=none
 ToggleTouchpad=none
+
+[services][systemsettings.desktop]
+_launch=Meta+I

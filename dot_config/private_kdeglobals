@@ -172,7 +172,7 @@ MaximumRemoteSize=0
 [Shortcuts]
 FindNext=
 Help=
-OpenMainMenu=
+OpenMainMenu=Ctrl+:
 Print=
 WhatsThis=
 
