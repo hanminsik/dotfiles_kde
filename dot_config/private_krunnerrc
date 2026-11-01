@@ -2,9 +2,14 @@
 historyBehavior=Disabled
 
 [Plugins]
+browserhistoryEnabled=false
+browsertabsEnabled=false
 krunner_katesessionsEnabled=false
 krunner_konsoleprofilesEnabled=false
+krunner_powerdevilEnabled=false
+krunner_sessionsEnabled=false
 krunner_spellcheckEnabled=false
+krunner_systemsettingsEnabled=false
 
 [Plugins][Favorites]
 plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings

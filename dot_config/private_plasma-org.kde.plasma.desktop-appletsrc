@@ -77,7 +77,7 @@ DialogWidth=810
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,applications:Alacritty.desktop,preferred://browser,applications:obsidian.desktop,applications:FFPWA-01M664AGYV4SJSJFVJA2ERHGCD.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,preferred://browser,applications:obsidian.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
@@ -131,10 +131,10 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.mediacontrolle
 [Containments][2][General]
 AppletOrder=4;29;3;5;30;6;8;24
 
-[Containments][31]
+[Containments][32]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=23da1986-5fdb-4b57-9217-33c7b62b0c44
+activityId=9de70d56-e8c8-461b-bab1-db4a39b4dd14
 formfactor=0
 immutability=1
 lastScreen=0
@@ -142,7 +142,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.color
 
-[Containments][31][Wallpaper][org.kde.color][General]
+[Containments][32][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
 [ScreenMapping]

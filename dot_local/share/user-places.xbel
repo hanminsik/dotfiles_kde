@@ -25,30 +25,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/minsik/Desktop">
-  <title>Desktop</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-desktop"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1793352367/1</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/minsik/Documents">
-  <title>Documents</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-documents"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1793352367/2</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/minsik/Downloads">
   <title>Downloads</title>
   <info>
@@ -57,18 +33,6 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1793352367/3</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/minsik/Music">
-  <title>Music</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-music"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1793352367/6</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -85,6 +49,30 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/minsik/Documents">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-documents"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1793352367/2</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/minsik/Music">
+  <title>Music</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-music"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1793352367/6</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/minsik/Videos">
   <title>Videos</title>
   <info>
@@ -93,6 +81,18 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1793352367/8</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/minsik/Desktop">
+  <title>Desktop</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1793352367/1</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -171,6 +171,15 @@
     <UDI>/org/freedesktop/UDisks2/block_devices/sda</UDI>
     <isSystemItem>true</isSystemItem>
     <uuid>305f892e-f539-46bd-86a3-feec487159b0</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>47fb6357-f6a8-415c-89ba-6ab64d0879cf</uuid>
    </metadata>
   </info>
  </separator>

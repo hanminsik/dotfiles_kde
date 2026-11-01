@@ -134,8 +134,6 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorSchemeHash=27363f5706202c1c8261fbda7381ddaab8ad48f3
-TerminalApplication=alacritty
-TerminalService=Alacritty.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
