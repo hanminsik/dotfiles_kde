@@ -87,7 +87,7 @@ Switch to Desktop 4=Ctrl+4,Ctrl+F4\tMeta+F4,바탕 화면 4(으)로 전환
 Switch to Desktop 5=Ctrl+5,none,바탕 화면 5(으)로 전환
 Switch to Desktop 6=Ctrl+6,none,바탕 화면 6(으)로 전환
 Switch to Desktop 7=Ctrl+7,none,바탕 화면 7(으)로 전환
-Switch to Desktop 8=none,none,바탕 화면 8(으)로 전환
+Switch to Desktop 8=Ctrl+8,none,바탕 화면 8(으)로 전환
 Switch to Desktop 9=none,none,바탕 화면 9(으)로 전환
 Switch to Next Desktop=none,none,다음 바탕 화면으로 전환
 Switch to Next Screen=none,none,다음 화면으로 전환
@@ -124,7 +124,7 @@ Window Custom Quick Tile Bottom=none,none,창을 아래로 사용자 정의 빠�
 Window Custom Quick Tile Left=none,none,창을 왼쪽으로 사용자 정의 빠른 타일링
 Window Custom Quick Tile Right=none,none,창을 오른쪽으로 사용자 정의 빠른 타일링
 Window Custom Quick Tile Top=none,none,창을 위로 사용자 정의 빠른 타일링
-Window Fullscreen=none,none,창을 전체 화면으로
+Window Fullscreen=Meta+F,none,창을 전체 화면으로
 Window Grow Horizontal=none,none,창을 수평으로 확장
 Window Grow Vertical=none,none,창을 수직으로 확장
 Window Lower=none,none,창 내리기
@@ -185,7 +185,7 @@ Window to Desktop 4=Ctrl+Alt+4,none,창을 바탕 화면 4(으)로 보내기
 Window to Desktop 5=Ctrl+Alt+5,none,창을 바탕 화면 5(으)로 보내기
 Window to Desktop 6=Ctrl+Alt+6,none,창을 바탕 화면 6(으)로 보내기
 Window to Desktop 7=Ctrl+Alt+7,none,창을 바탕 화면 7(으)로 보내기
-Window to Desktop 8=none,none,창을 바탕 화면 8(으)로 보내기
+Window to Desktop 8=Ctrl+Alt+8,none,창을 바탕 화면 8(으)로 보내기
 Window to Desktop 9=none,none,창을 바탕 화면 9(으)로 보내기
 Window to Next Desktop=none,none,다음 바탕 화면으로 창 이동
 Window to Next Screen=none,Meta+Shift+Right,다음 화면으로 창 이동
@@ -206,34 +206,34 @@ view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,확대(I)
 view_zoom_out=Meta+-,Meta+-,축소(O)
 
 [kwin][$InverseAction]
-Cycle Overview Opposite=Cycle Overview
-Decrease Opacity=Increase Opacity
-MoveZoomDown=MoveZoomUp
-MoveZoomLeft=MoveZoomRight
-Switch One Desktop Down=Switch One Desktop Up
-Switch One Desktop to the Left=Switch One Desktop to the Right
+Cycle Overview=Cycle Overview Opposite
+Increase Opacity=Decrease Opacity
+MoveZoomRight=MoveZoomLeft
+MoveZoomUp=MoveZoomDown
+Switch One Desktop Up=Switch One Desktop Down
+Switch One Desktop to the Right=Switch One Desktop to the Left
 Switch Window Down=Switch Window Up
-Switch Window Right=Switch Window Left
+Switch Window Left=Switch Window Right
+Switch to Next Desktop=Switch to Previous Desktop
 Switch to Next Screen=Switch to Previous Screen
-Switch to Previous Desktop=Switch to Next Desktop
-Switch to Screen Below=Switch to Screen Above
+Switch to Screen Above=Switch to Screen Below
 Switch to Screen to the Left=Switch to Screen to the Right
-Walk Through Windows=Walk Through Windows (Reverse)
-Walk Through Windows Alternative=Walk Through Windows Alternative (Reverse)
+Walk Through Windows (Reverse)=Walk Through Windows
+Walk Through Windows Alternative (Reverse)=Walk Through Windows Alternative
 Walk Through Windows of Current Application (Reverse)=Walk Through Windows of Current Application
 Walk Through Windows of Current Application Alternative (Reverse)=Walk Through Windows of Current Application Alternative
-Window Lower=Window Raise
-Window One Desktop Down=Window One Desktop Up
-Window One Desktop to the Right=Window One Desktop to the Left
-Window One Screen Up=Window One Screen Down
-Window One Screen to the Left=Window One Screen to the Right
-Window Pack Down=Window Pack Up
-Window Pack Left=Window Pack Right
+Window Grow Vertical=Window Shrink Vertical
+Window One Desktop Up=Window One Desktop Down
+Window One Desktop to the Left=Window One Desktop to the Right
+Window One Screen Down=Window One Screen Up
+Window One Screen to the Right=Window One Screen to the Left
+Window Pack Right=Window Pack Left
+Window Pack Up=Window Pack Down
+Window Raise=Window Lower
 Window Shrink Horizontal=Window Grow Horizontal
-Window Shrink Vertical=Window Grow Vertical
-Window to Previous Desktop=Window to Next Desktop
-Window to Previous Screen=Window to Next Screen
-view_zoom_in=view_zoom_out
+Window to Next Desktop=Window to Previous Desktop
+Window to Next Screen=Window to Previous Screen
+view_zoom_out=view_zoom_in
 
 [mediacontrol]
 _k_friendly_name=미디어 컨트롤러
@@ -313,6 +313,9 @@ _launch=F1
 
 [services][net.local.dolphin.desktop]
 _launch=Alt+Shift+D
+
+[services][org.kde.krunner.desktop]
+_launch=CapsLock\tSearch\tAlt+Space\tAlt+F2
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none

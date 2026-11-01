@@ -29,6 +29,10 @@ application/x-xz-compressed-tar=peazip.desktop;
 application/x-zstd-compressed-tar=peazip.desktop;
 application/zip=peazip.desktop;
 application/zstd=peazip.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-9084X3.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-9084X3.desktop;
+message/rfc822=userapp-Thunderbird-9084X3.desktop;
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-4IIZX3.desktop;
 
 [Default Applications]
 application/gzip=peazip.desktop;
@@ -62,3 +66,7 @@ application/x-zstd-compressed-tar=peazip.desktop;
 application/zip=peazip.desktop;
 application/zstd=peazip.desktop;
 x-scheme-handler/jetbrains=jetbrainsd.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-9084X3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-9084X3.desktop
+message/rfc822=userapp-Thunderbird-9084X3.desktop
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-4IIZX3.desktop

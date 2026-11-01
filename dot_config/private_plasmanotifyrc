@@ -1,6 +1,9 @@
 [Applications][firefox-developer-edition]
 Seen=true
 
+[Applications][org.mozilla.Thunderbird]
+Seen=true
+
 [DoNotDisturb]
 WhenFullscreen=false
 WhenScreenSharing=false

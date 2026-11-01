@@ -6,7 +6,8 @@ Id_4=b82e52d2-1ab9-4df7-9407-92765a598b06
 Id_5=07a05a52-8ba0-4e75-9bce-f8a99b1af50f
 Id_6=c9549730-b037-4ee3-974f-aa22288e04f6
 Id_7=8e40c8b2-fd97-4850-a9d1-ebc911b6f546
-Number=7
+Id_8=05f84b21-6fd7-4d84-8f5d-c62f31d94c2b
+Number=8
 Rows=1
 
 [Effect-overview]
@@ -30,6 +31,10 @@ zoomEnabled=false
 
 [TabBox]
 DesktopMode=2
+
+[Tiling][05f84b21-6fd7-4d84-8f5d-c62f31d94c2b][b11c8475-c7dc-46d3-be47-1b2a19d5230f]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][07a05a52-8ba0-4e75-9bce-f8a99b1af50f][676e0f24-4b98-4f00-9dba-1f5b0c0e5e6b]
 padding=4

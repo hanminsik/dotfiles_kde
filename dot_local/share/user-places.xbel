@@ -145,17 +145,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="kdeconnect://7d36d8dd9b8945a6a7c15f5d20e08b84/">
-  <title>Galaxy Note10 5G</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1793357456/0</ID>
-   </metadata>
-  </info>
- </bookmark>
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
@@ -183,4 +172,15 @@
    </metadata>
   </info>
  </separator>
+ <bookmark href="kdeconnect://7d36d8dd9b8945a6a7c15f5d20e08b84/">
+  <title>Galaxy Note10 5G</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1793523199/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>
