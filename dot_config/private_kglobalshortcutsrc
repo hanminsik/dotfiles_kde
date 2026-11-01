@@ -292,7 +292,7 @@ edit_clipboard=none,none,내용 편집(E)…
 manage activities=Meta+Q,Meta+Q,활동 전환기 표시
 move active task to left=Meta+Ctrl+Shift+PgUp,Meta+Ctrl+Shift+PgUp,활성 작업 관리자 항목을 뒤로 이동
 move active task to right=Meta+Ctrl+Shift+PgDown,Meta+Ctrl+Shift+PgDown,활성 작업 관리자 항목을 앞으로 이동
-next activity=Meta+A,none,활동간 전환
+next activity=none,none,활동간 전환
 previous activity=Meta+Shift+A,none,활동간 전환(거꾸로)
 repeat_action=none,none,현재 클립보드 내용으로 수동으로 동작 호출
 show dashboard=Ctrl+F12,Ctrl+F12,바탕 화면 표시
@@ -313,6 +313,15 @@ _launch=F1
 
 [services][net.local.dolphin.desktop]
 _launch=Alt+Shift+D
+
+[services][net.local.rofi-google-private.sh.desktop]
+_launch=Shift+Tools
+
+[services][net.local.rofi-google.sh.desktop]
+_launch=Tools
+
+[services][net.local.rofi-toggle.sh.desktop]
+_launch=Meta+A
 
 [services][org.kde.krunner.desktop]
 _launch=none

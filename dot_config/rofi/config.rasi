@@ -1,0 +1,19 @@
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+
+window {
+    fullscreen: true;
+    background-color: transparent;
+    padding: 30% 35%;   /* 입력창이 화면 가운데에 오도록 여백 */
+}
+mainbox {
+    background-color: @background;   /* 입력창 영역만 배경색 */
+    border: 2px;
+    padding: 10px;
+}
+
+configuration {
+    click-to-exit: true;
+    kb-cancel: "Escape,MousePrimary";
+    hover-select: true;
+}
