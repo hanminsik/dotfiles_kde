@@ -77,7 +77,7 @@ DialogWidth=810
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,preferred://browser,applications:obsidian.desktop,applications:firefox-developer-edition.webapp-0ebe0a6e-47db-4f58-a6df-fdfc8bb7fec1.desktop
+launchers=applications:systemsettings.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,applications:jetbrains-clion.desktop,preferred://browser,applications:obsidian.desktop,applications:firefox-developer-edition.webapp-0ebe0a6e-47db-4f58-a6df-fdfc8bb7fec1.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false

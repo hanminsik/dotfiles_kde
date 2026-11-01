@@ -314,6 +314,9 @@ _launch=F1
 [services][net.local.dolphin.desktop]
 _launch=Alt+Shift+D
 
+[services][net.local.konsole-toggle.sh.desktop]
+_launch=F3
+
 [services][net.local.rofi-google-private.sh.desktop]
 _launch=Shift+Tools
 
