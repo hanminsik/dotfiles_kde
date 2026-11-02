@@ -12,6 +12,7 @@ WhenScreensMirrored=false
 [Notifications]
 LowPriorityHistory=true
 PopupTimeout=8000
+ShowPopupTimeout=true
 
 [Services][donationmessage]
 ShowInHistory=false
