@@ -149,6 +149,15 @@ wallpaperplugin=org.kde.color
 [Containments][32][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
+[Containments][34]
+activityId=9de70d56-e8c8-461b-bab1-db4a39b4dd14
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [ScreenMapping]
 itemsOnDisabledScreens=
 screenMapping=
