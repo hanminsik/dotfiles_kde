@@ -1,5 +1,6 @@
 [General]
 AlwaysShowTabBar=true
+ConfirmClosingTerminalRunningProgram=false
 DynamicView=true
 OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
