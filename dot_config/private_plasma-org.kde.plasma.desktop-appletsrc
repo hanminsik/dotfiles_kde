@@ -77,7 +77,7 @@ DialogWidth=810
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:kitty.desktop,applications:jetbrains-clion.desktop,preferred://browser,applications:obsidian.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:kitty.desktop,applications:jetbrains-clion.desktop,applications:org.qt-project.qtcreator.desktop,applications:firefox-developer-edition.desktop,applications:obsidian.desktop,applications:firefox-developer-edition.webapp-8f31cd4f-94ae-44b0-a350-f334e654713a.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false

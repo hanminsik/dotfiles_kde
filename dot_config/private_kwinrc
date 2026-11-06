@@ -24,9 +24,14 @@ Active=true
 
 [Plugins]
 diminactiveEnabled=true
+fadingpopupsEnabled=false
+fullscreenEnabled=false
+maximizeEnabled=false
 overviewEnabled=false
+scaleEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
+squashEnabled=false
 zoomEnabled=false
 
 [TabBox]
