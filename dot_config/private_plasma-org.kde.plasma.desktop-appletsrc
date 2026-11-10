@@ -75,9 +75,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][5][Configuration][General]
+groupingStrategy=0
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:kitty.desktop,applications:jetbrains-clion.desktop,applications:org.qt-project.qtcreator.desktop,applications:firefox-developer-edition.desktop,applications:obsidian.desktop,applications:firefox-developer-edition.webapp-8f31cd4f-94ae-44b0-a350-f334e654713a.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:org.qt-project.qtcreator.desktop,applications:jetbrains-clion.desktop,applications:firefox.desktop,applications:obsidian.desktop,applications:com.todoist.Todoist.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
@@ -135,16 +136,19 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.mediacontrolle
 [Containments][2][General]
 AppletOrder=4;29;3;5;30;6;8;24
 
-[Containments][35]
+[Containments][36]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=37c3dad4-e680-4f2a-9412-072926dc5c72
+activityId=dc896d61-9a89-4d08-9c16-bd12f72341ae
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.color
+
+[Containments][36][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [ScreenMapping]
 itemsOnDisabledScreens=

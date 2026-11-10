@@ -1,5 +1,6 @@
 [Added Associations]
 application/gzip=peazip.desktop;
+application/pdf=firefox.desktop;
 application/vnd.ms-cab-compressed=peazip.desktop;
 application/vnd.rar=peazip.desktop;
 application/x-7z-compressed=peazip.desktop;
@@ -43,6 +44,7 @@ x-scheme-handler/net.thunderbird=userapp-Thunderbird-4IIZX3.desktop;
 
 [Default Applications]
 application/gzip=peazip.desktop;
+application/pdf=firefox.desktop;
 application/vnd.ms-cab-compressed=peazip.desktop;
 application/vnd.rar=peazip.desktop;
 application/x-7z-compressed=peazip.desktop;
