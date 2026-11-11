@@ -19,9 +19,6 @@ PointerAxisGestureModifiers=
 [Input]
 TabletMode=off
 
-[NightColor]
-Active=true
-
 [Plugins]
 diminactiveEnabled=true
 fadingpopupsEnabled=false

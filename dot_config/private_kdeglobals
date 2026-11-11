@@ -139,6 +139,7 @@ TerminalService=kitty.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
+fixed=Adwaita Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
 AnimationDurationFactor=0.5
