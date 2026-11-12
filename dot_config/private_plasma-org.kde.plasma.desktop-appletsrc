@@ -19,7 +19,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][24][Configuration]
 popupHeight=451
-popupWidth=560
+popupWidth=810
 
 [Containments][2][Applets][24][Configuration][Appearance]
 customDateFormat=yy. MM. dd. (ddd)
@@ -78,7 +78,7 @@ DialogWidth=810
 groupingStrategy=0
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:org.qt-project.qtcreator.desktop,applications:jetbrains-clion.desktop,applications:firefox.desktop,applications:obsidian.desktop,applications:com.todoist.Todoist.desktop
+launchers=applications:jetbrains-clion.desktop,applications:firefox.desktop,applications:obsidian.desktop,applications:com.todoist.Todoist.desktop,applications:com.mitchellh.ghostty.desktop,preferred://filemanager,applications:systemsettings.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
@@ -136,10 +136,10 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.vault,org.kde.plasma.mediacontrolle
 [Containments][2][General]
 AppletOrder=4;29;3;5;30;6;8;24
 
-[Containments][36]
+[Containments][37]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=dc896d61-9a89-4d08-9c16-bd12f72341ae
+activityId=8542fc4d-0dc6-44b2-aa3f-44cb9feaf9ea
 formfactor=0
 immutability=1
 lastScreen=0
@@ -147,7 +147,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.color
 
-[Containments][36][Wallpaper][org.kde.color][General]
+[Containments][37][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
 [ScreenMapping]

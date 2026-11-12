@@ -1,10 +1,9 @@
 [General]
-AlwaysShowTabBar=true
 ConfirmClosingTerminalRunningProgram=false
 DynamicView=true
-OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
 ShowFullPathInTitlebar=true
+SplitView=true
 Version=202
 ViewPropsTimestamp=2026,10,29,22,24,14.796
 
