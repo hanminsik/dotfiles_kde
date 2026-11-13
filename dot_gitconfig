@@ -4,3 +4,12 @@
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	autocrlf = input
+	quotepath = false
+[merge]
+	conflictStyle = diff3
