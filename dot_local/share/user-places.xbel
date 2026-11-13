@@ -190,15 +190,13 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://7d36d8dd9b8945a6a7c15f5d20e08b84/">
-  <title>Galaxy Note10 5G</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1794531701/0</ID>
+    <UDI>/org/kde/fstab/fuse.sshfs/run/user/1000/7d36d8dd9b8945a6a7c15f5d20e08b84</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
    </metadata>
   </info>
- </bookmark>
+ </separator>
 </xbel>

@@ -20,7 +20,7 @@ PointerAxisGestureModifiers=
 TabletMode=off
 
 [Plugins]
-diminactiveEnabled=true
+blurEnabled=false
 fadingpopupsEnabled=false
 fullscreenEnabled=false
 loginEnabled=false
