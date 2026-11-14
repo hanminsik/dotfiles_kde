@@ -120,9 +120,9 @@ if f then
                                         first = false
                                         end
 
-                                        -- 파일이나 URL을 열었을 때 창을 최대화 (전체화면 아님)
+                                        -- 파일을 새로 열었을 때 일시정지 상태를 해제하고 즉시 재생
                                         if opts.args[1] == 'loadfile' then
-                                            mp.set_property_native('window-maximized', true)
+                                            mp.set_property_native('pause', false)
                                             end
                                             end
                                             end
