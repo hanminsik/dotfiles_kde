@@ -1,4 +1,4 @@
-// 이 첫 줄은 반드시 주석이어야 합니다 (autoconfig 규칙)
+// config.js
 (function () {
   function setup(win) {
     if (win.location.href !== "chrome://browser/content/browser.xhtml") return;
