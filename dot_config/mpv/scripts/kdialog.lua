@@ -111,8 +111,6 @@ local function KDialog(opts)
                 arg2 = 'append'
             end
 
-            mp.set_property_bool('pause', false)
-
             mp.commandv(opts.args[1], file, arg2)
             first = false
         end
