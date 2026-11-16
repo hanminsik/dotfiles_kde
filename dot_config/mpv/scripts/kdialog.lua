@@ -110,6 +110,9 @@ local function KDialog(opts)
             if opts.args[1] == 'loadfile' and not first then
                 arg2 = 'append'
             end
+
+            mp.set_property_bool('pause', false)
+
             mp.commandv(opts.args[1], file, arg2)
             first = false
         end
@@ -122,7 +125,3 @@ mp.add_key_binding('Ctrl+f', 'open-files', KDialog {
     args = { 'loadfile', 'replace' },
 })
 
-mp.add_key_binding("x", "show-path", function()
-local path = mp.get_property("path")
-mp.osd_message(path or "재생 중인 파일 없음")
-end)
