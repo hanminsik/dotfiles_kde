@@ -305,32 +305,14 @@ switch to next activity=none,none,다음 활동으로 전환
 switch to previous activity=none,none,이전 활동으로 전환
 toggle do not disturb=none,none,방해 금지 모드 전환
 
-[services][net.local.alacritty-toggle.sh.desktop]
-_launch=F3
-
-[services][net.local.dolphin-2.desktop]
-_launch=Alt+Shift+T
-
 [services][net.local.dolphin-toggle.sh.desktop]
 _launch=F1
-
-[services][net.local.dolphin.desktop]
-_launch=Alt+Shift+D
 
 [services][net.local.ghostty-toggle.sh.desktop]
 _launch=F3
 
-[services][net.local.kitty-toggle.sh.desktop]
-_launch=F3
-
-[services][net.local.konsole-toggle.sh.desktop]
-_launch=F3
-
 [services][net.local.qalculate-toggle.sh.desktop]
 _launch=F4
-
-[services][org.kde.krunner.desktop]
-_launch=F6
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none
