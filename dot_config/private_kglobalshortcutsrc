@@ -7,12 +7,18 @@ switch-to-activity-5f243fa3-a730-4561-828d-16d8fdc78564=none,none,활동 "기본
 switch-to-activity-8542fc4d-0dc6-44b2-aa3f-44cb9feaf9ea=none,none,활동 "기본값"(으)로 전환
 switch-to-activity-9de70d56-e8c8-461b-bab1-db4a39b4dd14=none,none,활동 "기본값"(으)로 전환
 switch-to-activity-dc896d61-9a89-4d08-9c16-bd12f72341ae=none,none,활동 "기본값"(으)로 전환
+switch-to-activity-fe9e36a4-abc3-4efc-bc1b-db1be00b25e2=none,none,활동 "기본값"(으)로 전환
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to 영어 (미국)=none,none,키보드 레이아웃을 영어 (미국)(으)로 전환
 Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,마지막으로 사용한 키보드 레이아웃으로 전환
 Switch to Next Keyboard Layout=none,Meta+Alt+K,다음 키보드 레이아웃으로 전환
 _k_friendly_name=키보드 레이아웃 전환기
+
+[com.mitchellh.ghostty]
+CTRL+grave=Ctrl+`,Ctrl+`,toggle_quick_terminal
+SHIFT+CTRL+t=Ctrl+Shift+T,Ctrl+Shift+T,toggle_quick_terminal
+_k_friendly_name=Ghostty
 
 [kmix]
 _k_friendly_name=오디오 음량
@@ -210,34 +216,34 @@ view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,확대(I)
 view_zoom_out=Meta+-,Meta+-,축소(O)
 
 [kwin][$InverseAction]
-Cycle Overview=Cycle Overview Opposite
+Cycle Overview Opposite=Cycle Overview
 Increase Opacity=Decrease Opacity
 MoveZoomDown=MoveZoomUp
 MoveZoomRight=MoveZoomLeft
-Switch One Desktop Up=Switch One Desktop Down
+Switch One Desktop Down=Switch One Desktop Up
 Switch One Desktop to the Right=Switch One Desktop to the Left
-Switch Window Right=Switch Window Left
+Switch Window Left=Switch Window Right
 Switch Window Up=Switch Window Down
-Switch to Next Screen=Switch to Previous Screen
-Switch to Previous Desktop=Switch to Next Desktop
+Switch to Next Desktop=Switch to Previous Desktop
+Switch to Previous Screen=Switch to Next Screen
 Switch to Screen Above=Switch to Screen Below
 Switch to Screen to the Left=Switch to Screen to the Right
 Walk Through Windows (Reverse)=Walk Through Windows
-Walk Through Windows Alternative (Reverse)=Walk Through Windows Alternative
-Walk Through Windows of Current Application (Reverse)=Walk Through Windows of Current Application
+Walk Through Windows Alternative=Walk Through Windows Alternative (Reverse)
+Walk Through Windows of Current Application=Walk Through Windows of Current Application (Reverse)
 Walk Through Windows of Current Application Alternative=Walk Through Windows of Current Application Alternative (Reverse)
-Window Lower=Window Raise
-Window One Desktop Up=Window One Desktop Down
-Window One Desktop to the Right=Window One Desktop to the Left
-Window One Screen Down=Window One Screen Up
-Window One Screen to the Left=Window One Screen to the Right
-Window Pack Down=Window Pack Up
+Window Grow Vertical=Window Shrink Vertical
+Window One Desktop Down=Window One Desktop Up
+Window One Desktop to the Left=Window One Desktop to the Right
+Window One Screen Up=Window One Screen Down
+Window One Screen to the Right=Window One Screen to the Left
 Window Pack Right=Window Pack Left
+Window Pack Up=Window Pack Down
+Window Raise=Window Lower
 Window Shrink Horizontal=Window Grow Horizontal
-Window Shrink Vertical=Window Grow Vertical
 Window to Next Desktop=Window to Previous Desktop
 Window to Next Screen=Window to Previous Screen
-view_zoom_in=view_zoom_out
+view_zoom_out=view_zoom_in
 
 [mediacontrol]
 _k_friendly_name=미디어 컨트롤러
@@ -258,13 +264,13 @@ stopmedia=Media Stop,Media Stop,미디어 재생 정지
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,키보드 밝기 감소
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,화면 밝기 감소
 Decrease Screen Brightness Small=Shift+Monitor Brightness Down,Shift+Monitor Brightness Down,화면 밝기 1% 감소
-Hibernate=Hibernate,Hibernate,최대 절전 모드
+Hibernate=none,Hibernate,최대 절전 모드
 Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,키보드 밝기 증가
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,화면 밝기 증가
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,화면 밝기 1% 증가
 PowerDown=Power Down,Power Down,전원 끄기
 PowerOff=Power Off,Power Off,전원 끄기
-Sleep=Sleep,Sleep,절전
+Sleep=none,Sleep,절전
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,키보드 백라이트 켬/끔
 Turn Off Screen=none,none,화면 끄기
 _k_friendly_name=전원 관리
@@ -321,6 +327,9 @@ _launch=none
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=none
+
+[services][org.kde.screenreader.desktop]
+toggleScreenReader=none
 
 [services][org.kde.touchpadshortcuts.desktop]
 DisableTouchpad=none
