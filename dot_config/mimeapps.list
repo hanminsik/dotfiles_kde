@@ -40,10 +40,10 @@ image/jpeg=com.interversehq.qView.desktop;
 image/png=com.interversehq.qView.desktop;
 image/webp=com.interversehq.qView.desktop;
 image/x-icns=com.interversehq.qView.desktop;
-message/rfc822=userapp-Thunderbird-9084X3.desktop;
-x-scheme-handler/mailto=userapp-Thunderbird-9084X3.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-9084X3.desktop;
-x-scheme-handler/net.thunderbird=userapp-Thunderbird-4IIZX3.desktop;
+message/rfc822=
+x-scheme-handler/mailto=
+x-scheme-handler/mid=
+x-scheme-handler/net.thunderbird=
 
 [Default Applications]
 application/gzip=peazip.desktop;
@@ -87,8 +87,8 @@ image/jpeg=com.interversehq.qView.desktop;
 image/png=com.interversehq.qView.desktop;
 image/webp=com.interversehq.qView.desktop;
 image/x-icns=com.interversehq.qView.desktop;
-message/rfc822=userapp-Thunderbird-9084X3.desktop
+message/rfc822=
 x-scheme-handler/jetbrains=jetbrainsd.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-9084X3.desktop
-x-scheme-handler/mid=userapp-Thunderbird-9084X3.desktop
-x-scheme-handler/net.thunderbird=userapp-Thunderbird-4IIZX3.desktop
+x-scheme-handler/mailto=
+x-scheme-handler/mid=
+x-scheme-handler/net.thunderbird=
