@@ -354,6 +354,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
+EnablePrimarySelection=false
 InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 VirtualKeyboardMode=0
 
