@@ -1,8 +1,10 @@
 theme = "After Hours"
 font-family = "Adwaita Mono"
-font-size = 16
+font-size = 14
 font-thicken = true
 adjust-cell-height = 5
+window-width = 150
+window-height = 30
 window-padding-balance = true
 window-padding-x = 5
 copy-on-select = clipboard
